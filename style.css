@@ -175,6 +175,7 @@ h1 {
 
 
 .row {
+  position: relative;
   width:100%;
   display: flex;
   flex-wrap: wrap;
@@ -206,6 +207,30 @@ h1 {
   width: 100%;
   border-radius: 5%;
   gap:15px;
+}
+
+/*** Modal ***/
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, .9);
+  z-index: 1;
+}
+.modal img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.hide {
+  display: none;
 }
 
 
