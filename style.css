@@ -282,7 +282,7 @@ padding: 2px;
     font-size: 70px;
   }
 }
-@media  screen and (max-width: 850px) {
+@media  screen and (max-width: 900px) {
   h1 {font-size: 70px;
     
     position: relative;
